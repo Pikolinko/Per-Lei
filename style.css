@@ -1,0 +1,17 @@
+
+body{margin:0;font-family:Poppins,sans-serif;color:#222;scroll-behavior:smooth;}
+header{position:fixed;width:100%;display:flex;justify-content:space-between;padding:20px 60px;background:rgba(0,0,0,0.4);backdrop-filter:blur(8px);z-index:1000;}
+.logo{color:white;font-size:24px;font-weight:600;}
+nav a{color:white;margin-left:25px;text-decoration:none;transition:.3s;}
+nav a:hover{color:#d4af37;}
+.hero{height:100vh;display:flex;justify-content:center;align-items:center;text-align:center;color:white;background:url("https://source.unsplash.com/1600x900/?beauty,clinic,spa") center/cover;}
+.hero h1{font-size:54px;}
+.section{padding:90px 70px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px;}
+.card{background:white;border-radius:12px;overflow:hidden;box-shadow:0 8px 25px rgba(0,0,0,0.08);transition:.4s;}
+.card:hover{transform:translateY(-8px);}
+.card img{width:100%;height:230px;object-fit:cover;}
+.btn{background:#d4af37;color:white;padding:14px 28px;border:none;cursor:pointer;}
+footer{background:#111;color:white;text-align:center;padding:30px;}
+.whatsapp{position:fixed;bottom:25px;right:25px;background:#25D366;color:white;padding:15px;border-radius:50%;font-size:22px;}
+iframe{width:100%;height:350px;border:0;}
