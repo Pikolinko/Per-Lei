@@ -56,20 +56,24 @@ nav a:hover{
     background:
         linear-gradient(rgba(250,248,246,.65),
         rgba(250,248,246,.65)),
-        url("images/naslovna.jpg") center/cover;
+        url("images/hero.jpg") center/cover;
 }
 
 .hero h1{
     font-size:64px;
     font-weight:500;
-    color:#3a3a3a;
+    color:#b8967a;
 }
 
 .hero p{
     margin-top:20px;
     font-size:20px;
-    color:#666;
+    color:#b8967a;
 }
+.hero img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
 
 /* ===== SECTIONS ===== */
 .section{
@@ -155,7 +159,7 @@ form textarea:focus{
 footer{
     background:#f1ece7;
     text-align:center;
-    padding:45px;
+    padding:50px;
     color:#777;
     font-size:14px;
 }
